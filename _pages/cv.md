@@ -3,62 +3,66 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+# Junteng Liu
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**First-year PhD candidate, HKUST NLP Group**  
+Hong Kong University of Science and Technology (HKUST)  
+Email: [jliugi@connect.ust.hk](mailto:jliugi@connect.ust.hk) · GitHub: [Vicent0205](https://github.com/Vicent0205) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate) · X (Twitter): [@junteng88716710](https://x.com/junteng88716710)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Academic Background
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **Ph.D. in Computer Science**, Hong Kong University of Science and Technology (2024–Present). Member of the HKUST NLP Group, supervised by Professor Junxian He.
+- **B.Eng.**, Shanghai Jiao Tong University (2020–2024); graduated in June 2024. Previously advised by Professor Junxian He during undergraduate studies. Recipient of the Zhiyuan Honor Scholarship.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Research Experience
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- **Research Intern, MINIMAX** — February 2025–Present.
+- **Research Intern, Tencent WXG** — June 2024–September 2024; advised by Zifei Shan.
+- **Research Intern, Shanghai AI Lab** — June 2023–December 2023; advised by Prof. Yu Cheng.
+
+## Skills and Research Interests
+
+- Natural language processing
+- Machine learning
+- LLM reasoning and reinforcement learning
+- Hallucination in vision-language models (VLMs)
+- LLM truthfulness and interpretability
+
+## Publications
+
+Publications are also listed in the [About section](/) and on the [Publications page](/publications/).
+
+### First-author Publications
+
+1. **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond** (arXiv, 2025; first author).  
+   Junteng Liu, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. GitHub code repository recorded in memory; repository name/URL not recorded.
+
+2. **On the Perception Bottleneck of VLMs for Chart Understanding** (arXiv, 2025; first author).  
+   Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He. Code repository recorded in memory: Vision4Chart.
+
+3. **On the Universal Truthfulness Hyperplane Inside LLMs** (EMNLP 2024; first author).  
+   Junteng Liu, Shiqi Chen, Yu Cheng, Junxian He. Code repository recorded in memory: Universal_Truthfulness_Hyperplane.
+
+### Co-authored Publications
+
+4. **In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation** (ICML 2024).  
+   Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He.
+
+5. **C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models** (NeurIPS 2023).  
+   Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He.
+
+6. **Composing Parameter-Efficient Modules with Arithmetic Operations** (NeurIPS 2023).  
+   Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He.
+
+## Awards
+
+- Zhiyuan Honor Scholarship, Shanghai Jiao Tong University.
+
+## Contact
+
+- Email: [jliugi@connect.ust.hk](mailto:jliugi@connect.ust.hk)
+- GitHub: [https://github.com/Vicent0205](https://github.com/Vicent0205)
+- Google Scholar: [https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate)
+- X (Twitter): [@junteng88716710](https://x.com/junteng88716710)
