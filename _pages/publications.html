@@ -11,26 +11,68 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<section aria-label="Publications recorded in memory">
+  <h2>Publications</h2>
+  <p>All six publications recorded in memory are listed below. They are also included in the About section.</p>
 
+  <h3>First-author Publications</h3>
 
+  <article>
+    <h4>1. SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond (2025)</h4>
+    <ul>
+      <li><strong>Role:</strong> First author</li>
+      <li><strong>Recorded venue/status:</strong> arXiv (published on arXiv according to memory)</li>
+      <li><strong>Authors:</strong> Junteng Liu, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He</li>
+      <li><strong>Code:</strong> Has a GitHub code repository; the repository name/URL is not recorded in memory.</li>
+    </ul>
+  </article>
 
+  <article>
+    <h4>2. On the Perception Bottleneck of VLMs for Chart Understanding (2025)</h4>
+    <ul>
+      <li><strong>Role:</strong> First author</li>
+      <li><strong>Recorded venue/status:</strong> arXiv (published on arXiv according to memory)</li>
+      <li><strong>Authors:</strong> Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He</li>
+      <li><strong>Code repository recorded in memory:</strong> Vision4Chart</li>
+    </ul>
+  </article>
+
+  <article>
+    <h4>3. On the Universal Truthfulness Hyperplane Inside LLMs (EMNLP 2024)</h4>
+    <ul>
+      <li><strong>Role:</strong> First author</li>
+      <li><strong>Venue:</strong> EMNLP 2024</li>
+      <li><strong>Authors:</strong> Junteng Liu, Shiqi Chen, Yu Cheng, Junxian He</li>
+      <li><strong>Code repository recorded in memory:</strong> Universal_Truthfulness_Hyperplane</li>
+    </ul>
+  </article>
+
+  <h3>Co-authored Publications</h3>
+
+  <article>
+    <h4>4. In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation (ICML 2024)</h4>
+    <ul>
+      <li><strong>Role:</strong> Co-author</li>
+      <li><strong>Venue:</strong> ICML 2024</li>
+      <li><strong>Authors:</strong> Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He</li>
+    </ul>
+  </article>
+
+  <article>
+    <h4>5. C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models (NeurIPS 2023)</h4>
+    <ul>
+      <li><strong>Role:</strong> Co-author</li>
+      <li><strong>Venue:</strong> NeurIPS 2023</li>
+      <li><strong>Authors:</strong> Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He</li>
+    </ul>
+  </article>
+
+  <article>
+    <h4>6. Composing Parameter-Efficient Modules with Arithmetic Operations (NeurIPS 2023)</h4>
+    <ul>
+      <li><strong>Role:</strong> Co-author</li>
+      <li><strong>Venue:</strong> NeurIPS 2023</li>
+      <li><strong>Authors:</strong> Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He</li>
+    </ul>
+  </article>
+</section>

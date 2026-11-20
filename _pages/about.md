@@ -9,9 +9,7 @@ redirect_from:
 
 # Junteng Liu
 
-I am a first-year PhD candidate in the [HKUST NLP Group](https://github.com/Vicent0205) at the Hong Kong University of Science and Technology (HKUST), supervised by Professor Junxian He. I graduated from Shanghai Jiao Tong University (SJTU) in June 2024 with a B.Eng. (2020–2024). My research focuses on natural language processing and machine learning, with interests in LLM reasoning and reinforcement learning, hallucination in vision-language models (VLMs), and LLM truthfulness and interpretability.
-
-> The research details, publications, skills/interests, and contact information on this page are limited to the information recorded in memory.
+I am a first-year PhD candidate in the **HKUST NLP Group** at the Hong Kong University of Science and Technology (HKUST), supervised by Professor Junxian He. I graduated from Shanghai Jiao Tong University (SJTU) in June 2024 with a B.Eng. (2020–2024). My research focuses on natural language processing and machine learning, with interests in LLM reasoning and reinforcement learning, hallucination in vision-language models (VLMs), and LLM truthfulness and interpretability.
 
 ## Contact Information
 
@@ -60,14 +58,14 @@ All six publications recorded in memory are listed here as well as on the [Publi
 #### 1. SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond (2025)
 
 - **Role:** First author
-- **Recorded venue/status:** arXiv (2025)
+- **Recorded venue/status:** arXiv (published on arXiv according to memory)
 - **Authors:** Junteng Liu, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He
-- **Code:** Has a GitHub code repository (the repository URL/name is not recorded in memory).
+- **Code:** Has a GitHub code repository; the repository name/URL is not recorded in memory.
 
 #### 2. On the Perception Bottleneck of VLMs for Chart Understanding (2025)
 
 - **Role:** First author
-- **Recorded venue/status:** arXiv (2025)
+- **Recorded venue/status:** arXiv (published on arXiv according to memory)
 - **Authors:** Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He
 - **Code repository recorded in memory:** Vision4Chart
 
